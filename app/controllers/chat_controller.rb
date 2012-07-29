@@ -72,10 +72,10 @@ class ChatController < ApplicationController
           }
         end
       end
-      puts("Room length was: " + room.length)
+      puts("Room length was: #{room.length}")
       render(:action => index)
     end
-    puts("Params was: " + params[:room])
+    puts("Params was: #{params[:room]}")
     render(:action => index)
   end
         
