@@ -30,7 +30,7 @@ Message:  <input type="text" id="message" />
 		<%   @msgs.each do |row| %>
 		<%=    "span = document.createElement('span')" %>
 		<%=     "console.log('#{row.user_id}')" %>
-		<%=    "span.innerHTML = '<b>#{User.find(row.user_id).id}: </b>#{row.message}<br />'"  %>
+		<%= raw    "span.innerHTML = '<b>#{User.find(row.user_id).id}: </b>#{row.message}<br />'"  %>
 		<%=    "document.getElementById('chatdiv').appendChild(span)" %>
 		<%   end %>
 		<%  end  %>
