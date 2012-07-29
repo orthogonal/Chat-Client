@@ -15,6 +15,7 @@ class ChatController < ApplicationController
       usr = User.where("ip = ?", ip)
       @@usrid = usr.first.id
     end
+    @msgs = Message.order("id ASC").limit(10)
     render(:action => "index")
   end
   
@@ -25,7 +26,7 @@ class ChatController < ApplicationController
       msg.user_id = @@usrid
       msg.save
         
-      Pusher['chatapp1'].trigger('new_message', {:message => params[:message]})
+      Pusher['chatapp1'].trigger('new_message', {:message => params[:message], :username => params[:username]})
     end
     
     respond_to do |format|

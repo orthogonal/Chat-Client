@@ -1586,3 +1586,2039 @@ Processing by ChatController#new_message as HTML
   [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
   Rendered text template (0.0ms)
 Completed 200 OK in 599ms (Views: 1.0ms | ActiveRecord: 39.6ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:16:13 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+  Rendered chat/index.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 377ms (Views: 212.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:16:14 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:16:14 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:16:14 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:16:14 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:16:37 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  Rendered chat/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:16:37 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:16:37 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:16:37 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:16:37 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:16:54 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+  Rendered chat/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:16:54 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:16:54 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:16:54 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:16:54 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:17:40 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  Rendered chat/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 47ms (Views: 45.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:17:40 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:17:40 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:17:40 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:17:40 -0400
+Served asset /jquery.js - 304 Not Modified (139ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:17:41 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:17:41 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (70ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:19:09 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+  Rendered chat/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:19:10 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:19:10 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:19:10 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:19:10 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:19:10 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:19:10 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:19:43 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  Rendered chat/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:19:44 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:19:44 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:19:44 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:19:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:19:44 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:19:44 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:19:53 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+  Rendered chat/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 5.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:19:54 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:19:54 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:19:54 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:19:54 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:19:54 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:19:54 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:20:29 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  Rendered chat/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:20:29 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:20:29 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:20:29 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:20:29 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:20:29 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:20:29 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:21:24 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+  Rendered chat/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:21:24 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:21:24 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:21:24 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:21:24 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:21:24 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:21:24 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:23:07 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (12.8ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  Rendered chat/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 25ms (Views: 10.3ms | ActiveRecord: 12.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:23:07 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:23:07 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:23:07 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:23:07 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:23:07 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:23:07 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:24:44 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+  Rendered chat/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:24:45 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:24:45 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:24:45 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:24:45 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:24:45 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:24:45 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:25:14 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (25.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  Rendered chat/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 5.7ms | ActiveRecord: 25.2ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:25:15 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:25:15 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:25:15 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:25:15 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:25:15 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:25:15 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:25:29 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+  Rendered chat/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:25:30 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:25:30 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:25:30 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:25:30 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:25:30 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:25:30 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:25:31 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"taaa"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (34.8ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:25:31', 'taaa', NULL, '2012-07-29 04:25:31', 1)
+  [1m[36m (11.9ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 360ms (Views: 0.8ms | ActiveRecord: 47.0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:25:36 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"taaammmm"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (102.8ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:25:36', 'taaammmm', NULL, '2012-07-29 04:25:36', 1)[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 200ms (Views: 0.7ms | ActiveRecord: 103.3ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:26:07 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (35.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  Rendered chat/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 43ms (Views: 6.6ms | ActiveRecord: 35.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:26:07 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:26:07 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:26:07 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:26:07 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:26:07 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:26:07 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:26:30 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+  Rendered chat/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:26:30 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:26:30 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:26:30 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:26:30 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:26:30 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:26:30 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:26:32 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"rrrr"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (42.8ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:26:32', 'rrrr', NULL, '2012-07-29 04:26:32', 1)
+  [1m[36m (16.6ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 170ms (Views: 0.7ms | ActiveRecord: 59.5ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:26:45 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+  Rendered chat/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:26:45 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:26:45 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:26:45 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:26:45 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:26:45 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:26:45 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:26:47 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"sss"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (33.4ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:26:47', 'sss', NULL, '2012-07-29 04:26:47', 1)
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 143ms (Views: 0.6ms | ActiveRecord: 34.4ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:26:59 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+  Rendered chat/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:26:59 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:26:59 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:26:59 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:26:59 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:26:59 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:26:59 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:27:00 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"aa"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (14.4ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:27:00', 'aa', NULL, '2012-07-29 04:27:00', 1)
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 579ms (Views: 1.1ms | ActiveRecord: 15.5ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:28:48 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+  Rendered chat/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 69ms (Views: 67.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:28:49 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:28:49 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:28:49 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:28:49 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:28:49 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:28:49 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:28:51 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"racket"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (45.2ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:28:51', 'racket', NULL, '2012-07-29 04:28:51', 1)
+  [1m[36m (24.8ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 620ms (Views: 0.7ms | ActiveRecord: 70.1ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:29:06 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+  Rendered chat/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 36ms (Views: 7.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:29:06 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:29:06 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:29:06 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:29:06 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:29:06 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:29:06 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:29:08 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"that"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (30.9ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:29:08', 'that', NULL, '2012-07-29 04:29:08', 1)
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 140ms (Views: 1.0ms | ActiveRecord: 31.8ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:29:29 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+  Rendered chat/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:29:29 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:29:29 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:29:29 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:29:29 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:29:29 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:29:29 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:29:30 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>""}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (29.0ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:29:30', '', NULL, '2012-07-29 04:29:30', 1)
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 135ms (Views: 0.5ms | ActiveRecord: 29.8ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:29:30 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"f"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (33.1ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:29:30', 'f', NULL, '2012-07-29 04:29:30', 1)[0m
+  [1m[35m (38.1ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 171ms (Views: 0.3ms | ActiveRecord: 71.3ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:29:30 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"fs"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (80.5ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:29:30', 'fs', NULL, '2012-07-29 04:29:30', 1)
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 176ms (Views: 0.4ms | ActiveRecord: 81.2ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:29:31 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"fsf"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (23.2ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:29:31', 'fsf', NULL, '2012-07-29 04:29:31', 1)[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 125ms (Views: 0.6ms | ActiveRecord: 23.8ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:29:31 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"fsfs"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:29:31', 'fsfs', NULL, '2012-07-29 04:29:31', 1)
+  [1m[36m (13.7ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 151ms (Views: 0.5ms | ActiveRecord: 14.1ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:29:31 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"fsfsd"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (13.6ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:29:31', 'fsfsd', NULL, '2012-07-29 04:29:31', 1)[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 129ms (Views: 0.6ms | ActiveRecord: 14.4ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:29:31 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"fsfsdf"}
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (40.5ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:29:31', 'fsfsdf', NULL, '2012-07-29 04:29:31', 1)
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 142ms (Views: 0.5ms | ActiveRecord: 41.5ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:29:32 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"fsfsdfs"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (27.3ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:29:32', 'fsfsdfs', NULL, '2012-07-29 04:29:32', 1)[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 126ms (Views: 0.3ms | ActiveRecord: 28.0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:29:32 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"fsfsdfsd"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (37.1ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:29:32', 'fsfsdfsd', NULL, '2012-07-29 04:29:32', 1)
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 139ms (Views: 0.4ms | ActiveRecord: 37.9ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:29:32 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"fsfsdfsdw"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (20.4ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:29:32', 'fsfsdfsdw', NULL, '2012-07-29 04:29:32', 1)[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 119ms (Views: 0.4ms | ActiveRecord: 21.2ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:29:33 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"fsfsdfsdwf"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:29:33', 'fsfsdfsdwf', NULL, '2012-07-29 04:29:33', 1)
+  [1m[36m (5.1ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 109ms (Views: 0.8ms | ActiveRecord: 5.4ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:29:33 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"fsfsdfsdwff"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (37.2ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:29:33', 'fsfsdfsdwff', NULL, '2012-07-29 04:29:33', 1)[0m
+  [1m[35m (9.2ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 148ms (Views: 0.4ms | ActiveRecord: 46.6ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:29:33 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"fsfsdfsdwffw"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:29:33', 'fsfsdfsdwffw', NULL, '2012-07-29 04:29:33', 1)
+  [1m[36m (9.4ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 111ms (Views: 0.8ms | ActiveRecord: 9.8ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:29:33 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"fsfsdfsdwffwe"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:29:33', 'fsfsdfsdwffwe', NULL, '2012-07-29 04:29:33', 1)[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 102ms (Views: 0.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:30:05 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  Rendered chat/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:30:05 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:30:05 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:30:05 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:30:05 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:30:05 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:30:05 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:30:06 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>""}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (32.5ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:30:06', '', NULL, '2012-07-29 04:30:06', 1)[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 139ms (Views: 1.3ms | ActiveRecord: 33.1ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:30:07 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"a"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (33.9ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:30:07', 'a', NULL, '2012-07-29 04:30:07', 1)
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 132ms (Views: 1.0ms | ActiveRecord: 34.5ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:30:08 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"as"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:30:08', 'as', NULL, '2012-07-29 04:30:08', 1)[0m
+  [1m[35m (33.1ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 596ms (Views: 0.6ms | ActiveRecord: 33.4ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:30:09 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"asd"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (30.9ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:30:09', 'asd', NULL, '2012-07-29 04:30:09', 1)
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 128ms (Views: 1.2ms | ActiveRecord: 31.6ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:30:10 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"asds"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (43.0ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:30:10', 'asds', NULL, '2012-07-29 04:30:10', 1)[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 143ms (Views: 0.4ms | ActiveRecord: 43.6ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:30:12 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"asdss"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (19.7ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:30:12', 'asdss', NULL, '2012-07-29 04:30:12', 1)
+  [1m[36m (37.7ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 160ms (Views: 0.5ms | ActiveRecord: 57.7ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:30:12 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"asdssn"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (24.5ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:30:12', 'asdssn', NULL, '2012-07-29 04:30:12', 1)[0m
+  [1m[35m (17.4ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 176ms (Views: 0.5ms | ActiveRecord: 42.0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:30:13 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"asdssng"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (10.5ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:30:13', 'asdssng', NULL, '2012-07-29 04:30:13', 1)
+  [1m[36m (15.7ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 129ms (Views: 0.3ms | ActiveRecord: 26.3ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:30:13 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"asdssngi"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (49.8ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:30:13', 'asdssngi', NULL, '2012-07-29 04:30:13', 1)[0m
+  [1m[35m (13.0ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 167ms (Views: 0.5ms | ActiveRecord: 62.9ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:31:01 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  Rendered chat/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:31:01 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:31:01 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:31:01 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:31:01 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:31:01 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:31:01 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:31:04 -0400
+Processing by ChatController#new_message as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:32:47 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+  Rendered chat/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:32:47 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:32:47 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:32:47 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:32:47 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:32:47 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:32:47 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:32:49 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"n"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (51.1ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:32:49', 'n', NULL, '2012-07-29 04:32:49', 1)
+  [1m[36m (20.1ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 627ms (Views: 0.6ms | ActiveRecord: 71.3ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:32:51 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"aa"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:32:51', 'aa', NULL, '2012-07-29 04:32:51', 1)[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 105ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:34:15 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  Rendered chat/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:34:15 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:34:15 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:34:15 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:34:15 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:34:15 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:34:15 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:34:18 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"jnk"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (28.1ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:34:18', 'jnk', NULL, '2012-07-29 04:34:18', 1)[0m
+  [1m[35m (0.8ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 580ms (Views: 0.8ms | ActiveRecord: 29.0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:34:21 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"dwf"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (13.4ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:34:21', 'dwf', NULL, '2012-07-29 04:34:21', 1)
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 117ms (Views: 0.6ms | ActiveRecord: 14.6ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:34:22 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"wef"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (31.5ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:34:22', 'wef', NULL, '2012-07-29 04:34:22', 1)[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 128ms (Views: 1.0ms | ActiveRecord: 32.3ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:34:23 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"fewf"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (30.1ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:34:23', 'fewf', NULL, '2012-07-29 04:34:23', 1)
+  [1m[36m (9.8ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 175ms (Views: 0.7ms | ActiveRecord: 40.0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:34:23 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>""}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (26.0ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:34:23', '', NULL, '2012-07-29 04:34:23', 1)[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 128ms (Views: 0.5ms | ActiveRecord: 26.8ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:34:23 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>""}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (105.0ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:34:23', '', NULL, '2012-07-29 04:34:23', 1)
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 209ms (Views: 0.5ms | ActiveRecord: 107.3ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:34:23 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>""}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (19.9ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:34:23', '', NULL, '2012-07-29 04:34:23', 1)[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 152ms (Views: 1.0ms | ActiveRecord: 20.6ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:38:19 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  Rendered chat/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 178ms (Views: 6.3ms | ActiveRecord: 51.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:38:19 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:38:19 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:38:19 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:38:19 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:38:19 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:38:19 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:38:23 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"gg", "username"=>"andrew"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (22.0ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:38:23', 'gg', NULL, '2012-07-29 04:38:23', 1)[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 618ms (Views: 0.9ms | ActiveRecord: 25.2ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:38:46 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  Rendered chat/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 45ms (Views: 6.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:38:46 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:38:46 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:38:46 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:38:46 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:38:46 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:38:46 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:38:50 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"ss", "username"=>"params"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (14.7ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:38:50', 'ss', NULL, '2012-07-29 04:38:50', 1)[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 153ms (Views: 0.7ms | ActiveRecord: 17.9ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:39:13 -0400
+
+SyntaxError (/Users/orthogonal/Desktop/Programming/chatapp1/app/controllers/chat_controller.rb:29: syntax error, unexpected keyword_end, expecting ')'
+/Users/orthogonal/Desktop/Programming/chatapp1/app/controllers/chat_controller.rb:39: syntax error, unexpected $end, expecting keyword_end):
+  activesupport (3.2.6) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.6) lib/active_support/inflector/methods.rb:229:in `block in constantize'
+  activesupport (3.2.6) lib/active_support/inflector/methods.rb:228:in `each'
+  activesupport (3.2.6) lib/active_support/inflector/methods.rb:228:in `constantize'
+  activesupport (3.2.6) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.6) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:405:in `_run__287933765139865975__call__3320861203781126512__callbacks'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.7ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:39:21 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  Rendered chat/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 5.4ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:39:22 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:39:22 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:39:22 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:39:22 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:39:22 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:39:22 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:39:26 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"Oh, sensation", "username"=>"Portishead"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (9.2ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:39:26', 'Oh, sensation', NULL, '2012-07-29 04:39:26', 1)[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 155ms (Views: 0.8ms | ActiveRecord: 39.3ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:49:22 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  Rendered chat/index.html.erb within layouts/application (0.0ms)
+ERROR: compiling _app_views_layouts_application_html_erb__773026596189741203_70318439892220 RAISED /Users/orthogonal/Desktop/Programming/chatapp1/app/views/layouts/application.html.erb:34: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/orthogonal/Desktop/Programming/chatapp1/app/views/layouts/application.html.erb:36: syntax error, unexpected $end, expecting keyword_end
+Function body:           def _app_views_layouts_application_html_erb__773026596189741203_70318439892220(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "layouts/application";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<!DOCTYPE html>
+<html>
+<head>
+  	<title>Chatapp1</title>
+
+	<script src="http://js.pusher.com/1.12/pusher.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+	
+	<script>
+		var pusher = new Pusher(\'0d22bb6090acca83850d\');
+		var channel = pusher.subscribe(\'chatapp1\');
+		channel.bind(\'new_message\', function(data) {
+			span = document.createElement("span");
+			span.innerHTML = "<b>" + data.username + ": </b>" + data.message + "<br />";
+			document.getElementById("chatdiv").appendChild(span);
+		});
+');		 if (@msgs.length > 0) 
+		   @msgs.each do |row| 
+@output_buffer.safe_concat('		');@output_buffer.append= (    "console.log #{row.message}" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</script>
+	
+  	');@output_buffer.append= ( stylesheet_link_tag    "application", :media => "all" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  	');@output_buffer.append= ( javascript_include_tag "application" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('  	');@output_buffer.append= ( csrf_meta_tags );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</head>
+<body>
+
+	');@output_buffer.append= ( yield );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('
+</body>
+</html>
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/template.rb:297:in `module_eval'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/template.rb:297:in `compile'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/template.rb:232:in `compile!'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/template.rb:144:in `block in render'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/notifications.rb:125:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/template.rb:143:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/renderer/template_renderer.rb:59:in `render_with_layout'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/renderer/renderer.rb:17:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/abstract_controller/rendering.rb:88:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/rendering.rb:16:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.6/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/orthogonal/Desktop/Programming/chatapp1/app/controllers/chat_controller.rb:19:in `index'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/abstract_controller/base.rb:167:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:414:in `_run__1970723545810156855__process_action__2936571644331450664__callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/notifications.rb:123:in `block in instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/notifications.rb:123:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/params_wrapper.rb:206:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.6/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/abstract_controller/base.rb:121:in `process'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/abstract_controller/rendering.rb:45:in `process'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal.rb:203:in `dispatch'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal.rb:246:in `block in action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/head.rb:14:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.6/lib/active_record/query_cache.rb:64:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:405:in `_run__287933765139865975__call__3320861203781126512__callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.6/lib/rails/rack/logger.rb:26:in `call_app'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.6/lib/rails/rack/logger.rb:16:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/static.rb:62:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.6/lib/rails/engine.rb:479:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.6/lib/rails/application.rb:220:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.6/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+Completed 500 Internal Server Error in 414ms
+
+ActionView::Template::Error (/Users/orthogonal/Desktop/Programming/chatapp1/app/views/layouts/application.html.erb:34: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/orthogonal/Desktop/Programming/chatapp1/app/views/layouts/application.html.erb:36: syntax error, unexpected $end, expecting keyword_end):
+    31: </body>
+    32: </html>
+  app/controllers/chat_controller.rb:19:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (28.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (93.3ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:49:47 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+  Rendered chat/index.html.erb within layouts/application (0.0ms)
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT `messages`.* FROM `messages` LIMIT 10[0m
+Completed 200 OK in 29ms (Views: 16.3ms | ActiveRecord: 11.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:49:47 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:49:47 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:49:47 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:49:47 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:49:47 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:49:47 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:49:53 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"a", "username"=>"Guest"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (35.8ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:49:53', 'a', NULL, '2012-07-29 04:49:53', 1)[0m
+  [1m[35m (0.4ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 277ms (Views: 0.9ms | ActiveRecord: 36.4ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:50:52 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  Rendered chat/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:50:52 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:50:52 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:50:52 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:50:52 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:50:52 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:50:52 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:50:55 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"ioo", "username"=>"Guest"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (24.7ms)[0m  [1mINSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:50:55', 'ioo', NULL, '2012-07-29 04:50:55', 1)[0m
+  [1m[35m (0.9ms)[0m  COMMIT
+  Rendered text template (0.0ms)
+Completed 200 OK in 125ms (Views: 0.9ms | ActiveRecord: 25.8ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:53:51 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  Rendered chat/index.html.erb within layouts/application (0.0ms)
+  [1m[35mMessage Load (0.3ms)[0m  SELECT `messages`.* FROM `messages` LIMIT 10
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:53:51 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:53:51 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:53:51 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:53:51 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:53:51 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:53:51 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 00:53:53 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"io", "username"=>"Guest"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (28.1ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-29 04:53:53', 'io', NULL, '2012-07-29 04:53:53', 1)
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  Rendered text template (0.0ms)
+Completed 200 OK in 561ms (Views: 0.8ms | ActiveRecord: 29.2ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 00:54:33 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT `messages`.* FROM `messages` LIMIT 10[0m
+  Rendered chat/index.html.erb within layouts/application (37.5ms)
+Completed 200 OK in 45ms (Views: 43.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 00:54:33 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 00:54:33 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 00:54:33 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 00:54:33 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 00:54:33 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 00:54:33 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 01:00:47 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+Completed 500 Internal Server Error in 89ms
+
+NoMethodError (undefined method `reverse_order' for #<Class:0x007fe893625290>):
+  app/controllers/chat_controller.rb:18:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.5ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 01:03:22 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  [1m[35mMessage Load (45.0ms)[0m  SELECT `messages`.* FROM `messages` ORDER BY id ASC, id DESC LIMIT 10
+  Rendered chat/index.html.erb within layouts/application (59.2ms)
+Completed 200 OK in 85ms (Views: 18.1ms | ActiveRecord: 49.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 01:03:23 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 01:03:23 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 01:03:23 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 01:03:23 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 01:03:23 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 01:03:23 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 01:03:43 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  [1m[35mMessage Load (0.2ms)[0m  SELECT `messages`.* FROM `messages` ORDER BY id ASC, id DESC LIMIT 10
+  Rendered chat/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 01:03:44 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 01:03:44 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 01:03:44 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 01:03:44 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 01:03:44 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 01:03:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 01:04:24 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  [1m[35mMessage Load (0.1ms)[0m  SELECT `messages`.* FROM `messages` ORDER BY id ASC LIMIT 10
+  Rendered chat/index.html.erb within layouts/application (37.5ms)
+Completed 200 OK in 98ms (Views: 40.9ms | ActiveRecord: 36.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 01:04:24 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 01:04:24 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 01:04:24 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 01:04:24 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 01:04:24 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 01:04:24 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 01:10:18 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  [1m[35mMessage Load (0.3ms)[0m  SELECT `messages`.* FROM `messages` ORDER BY id ASC LIMIT 10
+  [1m[36mUser Load (12.7ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`message_id` = 1 LIMIT 1[0m
+Mysql2::Error: Unknown column 'users.message_id' in 'where clause': SELECT  `users`.* FROM `users`  WHERE `users`.`message_id` = 1 LIMIT 1
+  Rendered chat/index.html.erb within layouts/application (373.7ms)
+Completed 500 Internal Server Error in 377ms
+
+ActionView::Template::Error (Mysql2::Error: Unknown column 'users.message_id' in 'where clause': SELECT  `users`.* FROM `users`  WHERE `users`.`message_id` = 1 LIMIT 1):
+    29: 		<% if (@msgs.length > 0) %>
+    30: 		<%   @msgs.each do |row| %>
+    31: 		<%=    "span = document.createElement('span')" %>
+    32: 		<%=    "span.innerHTML = '<b>#{row.user.id}: </b>#{row.message}<br />'"  %>
+    33: 		<%=    "document.getElementById('chatdiv').appendChild(span)" %>
+    34: 		<%   end %>
+    35: 		<%  end  %>
+  app/views/chat/index.html.erb:32:in `block in _app_views_chat_index_html_erb__3347869220347401723_70318439167540'
+  app/views/chat/index.html.erb:30:in `_app_views_chat_index_html_erb__3347869220347401723_70318439167540'
+  app/controllers/chat_controller.rb:19:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (24.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (73.9ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 01:18:11 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+  [1m[36mMessage Load (0.2ms)[0m  [1mSELECT `messages`.* FROM `messages` ORDER BY id ASC LIMIT 10[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`message_id` = 1 LIMIT 1
+Mysql2::Error: Unknown column 'users.message_id' in 'where clause': SELECT  `users`.* FROM `users`  WHERE `users`.`message_id` = 1 LIMIT 1
+  Rendered chat/index.html.erb within layouts/application (14.0ms)
+Completed 500 Internal Server Error in 158ms
+
+ActionView::Template::Error (Mysql2::Error: Unknown column 'users.message_id' in 'where clause': SELECT  `users`.* FROM `users`  WHERE `users`.`message_id` = 1 LIMIT 1):
+    29: 		<% if (@msgs.length > 0) %>
+    30: 		<%   @msgs.each do |row| %>
+    31: 		<%=    "span = document.createElement('span')" %>
+    32: 		<%=    "span.innerHTML = '<b>#{row.user.id}: </b>#{row.message}<br />'"  %>
+    33: 		<%=    "document.getElementById('chatdiv').appendChild(span)" %>
+    34: 		<%   end %>
+    35: 		<%  end  %>
+  app/views/chat/index.html.erb:32:in `block in _app_views_chat_index_html_erb__3347869220347401723_70318439167540'
+  app/views/chat/index.html.erb:30:in `_app_views_chat_index_html_erb__3347869220347401723_70318439167540'
+  app/controllers/chat_controller.rb:19:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (27.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (37.4ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 01:26:51 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+ERROR: compiling _app_views_chat_index_html_erb__3347869220347401723_70318439589660 RAISED /Users/orthogonal/Desktop/Programming/chatapp1/app/views/chat/index.html.erb:33: syntax error, unexpected '<', expecting ')'
+		<%=    "span.innerHTML = '<b>#...
+		 ^
+/Users/orthogonal/Desktop/Programming/chatapp1/app/views/chat/index.html.erb:34: syntax error, unexpected tIDENTIFIER, expecting ')'
+...t_buffer.append= (    "document.getElementById('chatdiv').ap...
+...                               ^
+/Users/orthogonal/Desktop/Programming/chatapp1/app/views/chat/index.html.erb:34: syntax error, unexpected tSTRING_BEG, expecting ')'
+...d('chatdiv').appendChild(span)" );@output_buffer.safe_concat...
+...                               ^
+/Users/orthogonal/Desktop/Programming/chatapp1/app/views/chat/index.html.erb:34: unterminated string meets end of file
+Function body:           def _app_views_chat_index_html_erb__3347869220347401723_70318439589660(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "chat/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('Username: <input type="text" id="username"><br />
+Message:  <input type="text" id="message" />
+
+<div id=\'chatdiv\' style=\'height: 150px; width: 100%; overflow: auto;\'></div>
+
+<script type="text/javascript">
+	$(\'document\').ready(function(){
+		$(\'#message\').keypress(function(e){
+			if (e.which == 10 || e.which == 13){
+				$(\'#message\').attr("disabled", "disabled");
+				$.ajax({
+					type: "POST",
+					url: "new_message",
+					data: {message: $(\'#message\').val(), username: $(\'#username\').val() || "Guest"},
+					dataType: "html",
+					error: function(xhr,err){
+					    alert("readyState: " + xhr.readyState + "\\nstatus: " + xhr.status);
+					    alert("responseText: " + xhr.responseText);
+						alert(err);
+					},
+					success: function(){
+						$(\'#message\').val("");
+						$(\'#message\').removeAttr(\'disabled\');
+					}
+				});
+			}
+		});
+		
+');		 if (@msgs.length > 0) 
+		   @msgs.each do |row| 
+@output_buffer.safe_concat('		');@output_buffer.append= (    "span = document.createElement('span')" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		');@output_buffer.append= (     "console.log('#{row.user_id}')"
+		<%=    "span.innerHTML = '<b>#{row.user}: </b>#{row.message}<br />'"  );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		');@output_buffer.append= (    "document.getElementById('chatdiv').appendChild(span)" );@output_buffer.safe_concat('
+');		   end 
+		  end  
+@output_buffer.safe_concat('	})
+</script>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/template.rb:297:in `module_eval'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/template.rb:297:in `compile'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/template.rb:232:in `compile!'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/template.rb:144:in `block in render'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/notifications.rb:125:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/template.rb:143:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/notifications.rb:123:in `block in instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/notifications.rb:123:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_view/renderer/renderer.rb:17:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/abstract_controller/rendering.rb:88:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/rendering.rb:16:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.6/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/orthogonal/Desktop/Programming/chatapp1/app/controllers/chat_controller.rb:19:in `index'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/abstract_controller/base.rb:167:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:414:in `_run__1970723545810156855__process_action__2936571644331450664__callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/notifications.rb:123:in `block in instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/notifications.rb:123:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/params_wrapper.rb:206:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.6/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/abstract_controller/base.rb:121:in `process'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/abstract_controller/rendering.rb:45:in `process'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal.rb:203:in `dispatch'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_controller/metal.rb:246:in `block in action'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/head.rb:14:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.6/lib/active_record/query_cache.rb:64:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:405:in `_run__287933765139865975__call__3320861203781126512__callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.6/lib/rails/rack/logger.rb:26:in `call_app'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.6/lib/rails/rack/logger.rb:16:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.6/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/static.rb:62:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.6/lib/rails/engine.rb:479:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.6/lib/rails/application.rb:220:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.6/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered chat/index.html.erb within layouts/application (12.3ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (/Users/orthogonal/Desktop/Programming/chatapp1/app/views/chat/index.html.erb:33: syntax error, unexpected '<', expecting ')'
+		<%=    "span.innerHTML = '<b>#...
+		 ^
+/Users/orthogonal/Desktop/Programming/chatapp1/app/views/chat/index.html.erb:34: syntax error, unexpected tIDENTIFIER, expecting ')'
+...t_buffer.append= (    "document.getElementById('chatdiv').ap...
+...                               ^
+/Users/orthogonal/Desktop/Programming/chatapp1/app/views/chat/index.html.erb:34: syntax error, unexpected tSTRING_BEG, expecting ')'
+...d('chatdiv').appendChild(span)" );@output_buffer.safe_concat...
+...                               ^
+/Users/orthogonal/Desktop/Programming/chatapp1/app/views/chat/index.html.erb:34: unterminated string meets end of file):
+    30: 		<%   @msgs.each do |row| %>
+    31: 		<%=    "span = document.createElement('span')" %>
+    32: 		<%=     "console.log('#{row.user_id}')"
+    33: 		<%=    "span.innerHTML = '<b>#{row.user}: </b>#{row.message}<br />'"  %>
+    34: 		<%=    "document.getElementById('chatdiv').appendChild(span)" %>
+    35: 		<%   end %>
+    36: 		<%  end  %>
+  app/controllers/chat_controller.rb:19:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.5ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 01:27:03 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT `messages`.* FROM `messages` ORDER BY id ASC LIMIT 10[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`message_id` = 1 LIMIT 1
+Mysql2::Error: Unknown column 'users.message_id' in 'where clause': SELECT  `users`.* FROM `users`  WHERE `users`.`message_id` = 1 LIMIT 1
+  Rendered chat/index.html.erb within layouts/application (5.4ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (Mysql2::Error: Unknown column 'users.message_id' in 'where clause': SELECT  `users`.* FROM `users`  WHERE `users`.`message_id` = 1 LIMIT 1):
+    30: 		<%   @msgs.each do |row| %>
+    31: 		<%=    "span = document.createElement('span')" %>
+    32: 		<%=     "console.log('#{row.user_id}')" %>
+    33: 		<%=    "span.innerHTML = '<b>#{row.user}: </b>#{row.message}<br />'"  %>
+    34: 		<%=    "document.getElementById('chatdiv').appendChild(span)" %>
+    35: 		<%   end %>
+    36: 		<%  end  %>
+  app/views/chat/index.html.erb:33:in `block in _app_views_chat_index_html_erb__3347869220347401723_70318441046440'
+  app/views/chat/index.html.erb:30:in `_app_views_chat_index_html_erb__3347869220347401723_70318441046440'
+  app/controllers/chat_controller.rb:19:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.0ms)
+
+
+Started GET "/chat/index" for 127.0.0.1 at 2012-07-29 01:31:50 -0400
+Processing by ChatController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')[0m
+  [1m[35mMessage Load (0.4ms)[0m  SELECT `messages`.* FROM `messages` ORDER BY id ASC LIMIT 10
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered chat/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 37ms (Views: 34.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 01:31:50 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 01:31:50 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 01:31:50 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 01:31:50 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 01:31:50 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 01:31:50 -0400
+Served asset /chat.js - 304 Not Modified (0ms)

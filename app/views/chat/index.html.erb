@@ -1,15 +1,38 @@
-<input type="text" id="message" />
-<button onclick='
-$.ajax({
-	type: "POST",
-	url: "new_message",
-	data: {message: document.getElementById("message").value},
-	dataType: "html",
-	error: function(xhr,err){
-	    alert("readyState: " + xhr.readyState + "\nstatus: " + xhr.status);
-	    alert("responseText: " + xhr.responseText);
-		alert(err);
-	}
-});'>Hello</button>
+Username: <input type="text" id="username"><br />
+Message:  <input type="text" id="message" />
 
 <div id='chatdiv' style='height: 150px; width: 100%; overflow: auto;'></div>
+
+<script type="text/javascript">
+	$('document').ready(function(){
+		$('#message').keypress(function(e){
+			if (e.which == 10 || e.which == 13){
+				$('#message').attr("disabled", "disabled");
+				$.ajax({
+					type: "POST",
+					url: "new_message",
+					data: {message: $('#message').val(), username: $('#username').val() || "Guest"},
+					dataType: "html",
+					error: function(xhr,err){
+					    alert("readyState: " + xhr.readyState + "\nstatus: " + xhr.status);
+					    alert("responseText: " + xhr.responseText);
+						alert(err);
+					},
+					success: function(){
+						$('#message').val("");
+						$('#message').removeAttr('disabled');
+					}
+				});
+			}
+		});
+		
+		<% if (@msgs.length > 0) %>
+		<%   @msgs.each do |row| %>
+		<%=    "span = document.createElement('span')" %>
+		<%=     "console.log('#{row.user_id}')" %>
+		<%=    "span.innerHTML = '<b>#{User.find(row.user_id).id}: </b>#{row.message}<br />'"  %>
+		<%=    "document.getElementById('chatdiv').appendChild(span)" %>
+		<%   end %>
+		<%  end  %>
+	})
+</script>
