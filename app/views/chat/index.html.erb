@@ -1,8 +1,9 @@
+<input type="text" id="message" />
 <button onclick='
 $.ajax({
 	type: "POST",
 	url: "new_message",
-	data: {},
+	data: {message: document.getElementById("message").value},
 	dataType: "html",
 	error: function(xhr,err){
 	    alert("readyState: " + xhr.readyState + "\nstatus: " + xhr.status);
@@ -10,3 +11,5 @@ $.ajax({
 		alert(err);
 	}
 });'>Hello</button>
+
+<div id='chatdiv' style='height: 150px; width: 100%; overflow: auto;'></div>

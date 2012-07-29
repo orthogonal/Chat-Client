@@ -12,8 +12,8 @@
 		var channel = pusher.subscribe('chatapp1');
 		channel.bind('new_message', function(data) {
 			span = document.createElement("span");
-			span.innerHTML = data.message;
-			document.body.appendChild(span);
+			span.innerHTML = data.message + "<br />";
+			document.getElementById("chatdiv").appendChild(span);
 		});
 	</script>
 	
