@@ -8,6 +8,8 @@ gem 'rails', '3.2.6'
 gem 'mysql2'
 
 gem 'pusher'
+gem 'therubyracer-heroku', '0.8.1.pre3'
+gem 'pg'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -19,6 +21,11 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+end
+
+group :production do
+  gem 'therubyracer-heroku', '0.8.1.pre3'
+  gem 'pg'
 end
 
 gem 'jquery-rails'

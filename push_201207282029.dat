@@ -1,0 +1,1 @@
+{"klass":"Taps::Push","database_url":"mysql2://chatapp1_admin:chatapp1_password@127.0.0.1/chatapp1?encoding=utf8","remote_url":"http://heroku:osui59a24am79x@taps19.heroku.com","session_uri":"/sessions/1064492019","stream_state":{},"completed_tables":[],"table_filter":null,"local_tables_info":{"messages":1,"rooms":0,"schema_migrations":3,"users":1}}
