@@ -71,12 +71,14 @@ class ChatController < ApplicationController
             render(:xml => msgs)
           }
         end
+      else
+        puts("Room length was: #{room.length}")
+        render(:action => index)
       end
-      puts("Room length was: #{room.length}")
+    else
+      puts("Params was: #{params[:room]}")
       render(:action => index)
     end
-    puts("Params was: #{params[:room]}")
-    render(:action => index)
   end
         
   
