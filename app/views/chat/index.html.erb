@@ -1,7 +1,11 @@
-Username: <input type="text" id="username"><br />
-Message:  <input type="text" id="message" />
+Username: <input type="text" id="username" value=<%= "'#{@name}'" %>>&nbsp&nbsp
+Room: <select id="room">
+		<option value="Real">Real</option>
+		<option value="Complex">Complex</option>
+	  </select>
 
-<div id='chatdiv' style='height: 150px; width: 100%; overflow: auto;'></div>
+<div id='chatdiv' style='height: 500px; width: 100%; overflow: auto;'></div>
+Message:  <input type="text" id="message" />
 
 <script type="text/javascript">
 	$('document').ready(function(){
@@ -26,11 +30,58 @@ Message:  <input type="text" id="message" />
 			}
 		});
 		
+		$('#room').change(function(){
+			$('#room').attr("disabled", "disabled");
+			console.log($('#chatdiv'))
+			$('#chatdiv').html("");
+			$.ajax({
+				type: "POST",
+				url: "change_room",
+				data: {room: $('#room').val()},
+				dataType: "xml",
+				error: function(xhr,err){
+				    alert("readyState: " + xhr.readyState + "\nstatus: " + xhr.status);
+				    alert("responseText: " + xhr.responseText);
+					alert(err);
+				},
+				success: function(data){
+					data = data.getElementsByTagName("arrays")[0]
+					var username = "";
+					var message = "";
+					i = 0;
+					if (data){
+						while (data.childNodes[i] != null){
+							if (data.childNodes[i].nodeType != 3){
+								j = 0;
+								k = 0;
+								while (data.childNodes[i].childNodes[j] != null){
+									if (data.childNodes[i].childNodes[j].nodeType != 3){
+										k += 1;
+										if (k == 1)
+											username = (data.childNodes[i].childNodes[j].childNodes[0]) ? data.childNodes[i].childNodes[j].childNodes[0].data : "";
+										else if (k == 2)
+											message = (data.childNodes[i].childNodes[j].childNodes[0]) ? data.childNodes[i].childNodes[j].childNodes[0].data : "";
+									}
+									j += 1;
+								}
+								console.log("Check 3: " + username)
+								span = document.createElement("span");
+								span.innerHTML = "<b>" + username + ": </b>" + message + "<br />";
+								$("#chatdiv").append(span);
+							}
+							i += 1;
+						}
+					}
+					$('#room').removeAttr("disabled");
+				}
+			});
+		})
+		
 		<% if (@msgs.length > 0) %>
 		<%   @msgs.each do |row| %>
 		<%=    "span = document.createElement('span')" %>
 		<%=     "console.log('#{row.user_id}')" %>
-		<%= raw    "span.innerHTML = '<b>#{User.find(row.user_id).id}: </b>#{row.message}<br />'"  %>
+		<%= raw    "span.innerHTML = '<b>#{User.find(row.user_id).username}: </b>#{row.message}<br />'"  %>
 		<%=    "document.getElementById('chatdiv').appendChild(span)" %>
 		<%   end %>
 		<%  end  %>
