@@ -1,0 +1,12 @@
+<button onclick='
+$.ajax({
+	type: "POST",
+	url: "new_message",
+	data: {},
+	dataType: "html",
+	error: function(xhr,err){
+	    alert("readyState: " + xhr.readyState + "\nstatus: " + xhr.status);
+	    alert("responseText: " + xhr.responseText);
+		alert(err);
+	}
+});'>Hello</button>

@@ -16,3 +16,6 @@
 
 # Ignore the database file, because it has passwords in it.
 database.yml
+
+# Ignore OS X's stupid file
+.DS_STORE
