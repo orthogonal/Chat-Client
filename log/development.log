@@ -1,0 +1,18 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (676.2ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (623.1ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (14.8ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateMessages (20120728235754)
+  [1m[35m (322.1ms)[0m  CREATE TABLE `messages` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `room_id` int(11), `message` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (34.4ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120728235754')[0m
+Migrating to CreateUsers (20120729000029)
+  [1m[35m (284.9ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `username` varchar(255), `password` varchar(255), `ip` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120729000029')[0m
+Migrating to CreateRooms (20120729000036)
+  [1m[35m (217.9ms)[0m  CREATE TABLE `rooms` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120729000036')[0m
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
