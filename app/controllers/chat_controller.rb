@@ -36,7 +36,7 @@ class ChatController < ApplicationController
         session[:username] = params[:username]
       end
         
-      Pusher['chatapp1'].trigger('new_message', {:message => params[:message].gsub("'","\\\\'"), :username => params[:username].gsub("'","\\\\'")})
+      Pusher['chatapp1'].trigger('new_message', {:message => params[:message].gsub("'","\\\\'"), :username => params[:username].gsub("'","\\\\'"), :roomid => session[:roomid]})
     end
     
     respond_to do |format|

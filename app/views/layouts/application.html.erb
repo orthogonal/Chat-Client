@@ -11,9 +11,11 @@
 		var pusher = new Pusher('0d22bb6090acca83850d');
 		var channel = pusher.subscribe('chatapp1');
 		channel.bind('new_message', function(data) {
-			span = document.createElement("span");
-			span.innerHTML = "<b>" + data.username + ": </b>" + data.message + "<br />";
-			document.getElementById("chatdiv").appendChild(span);
+			if (data.roomid == session[:roomid]){
+				span = document.createElement("span");
+				span.innerHTML = "<b>" + data.username + ": </b>" + data.message + "<br />";
+				document.getElementById("chatdiv").appendChild(span);
+			}
 		});
 	</script>
   	<%= stylesheet_link_tag    "application", :media => "all" %>
