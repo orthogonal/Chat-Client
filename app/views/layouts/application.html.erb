@@ -8,10 +8,13 @@
 	
 	
 	<script>
+		var room = "1";
 		var pusher = new Pusher('0d22bb6090acca83850d');
 		var channel = pusher.subscribe('chatapp1');
 		channel.bind('new_message', function(data) {
-			if (data.roomid == session[:roomid]){
+			console.log(String(data.roomid))
+			console.log(room)
+			if (String(data.roomid) == room){
 				span = document.createElement("span");
 				span.innerHTML = "<b>" + data.username + ": </b>" + data.message + "<br />";
 				document.getElementById("chatdiv").appendChild(span);

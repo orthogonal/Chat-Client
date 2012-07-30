@@ -1,7 +1,7 @@
 Username: <input type="text" id="username" value=<%= "'#{@name}'" %>>&nbsp&nbsp
 Room: <select id="room">
-		<option value="Real">Real</option>
-		<option value="Complex">Complex</option>
+		<option value="Real" data-id = "1">Real</option>
+		<option value="Complex" data-id = "2">Complex</option>
 	  </select>
 
 <div id='chatdiv' style='height: 500px; width: 100%; overflow: auto;'></div>
@@ -46,6 +46,7 @@ Message:  <input type="text" id="message" />
 				},
 				success: function(data){
 					data = data.getElementsByTagName("arrays")[0]
+					room = $('#room').attr('data-id');
 					var username = "";
 					var message = "";
 					i = 0;
