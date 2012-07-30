@@ -9443,3 +9443,70 @@ Processing by ChatController#new_message as HTML
   Parameters: {"message"=>"", "username"=>"orthogonal"}
   Rendered text template (0.0ms)
 Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/chat/change_room" for 127.0.0.1 at 2012-07-29 20:18:11 -0400
+Processing by ChatController#change_room as XML
+  Parameters: {"room"=>"Real"}
+  [1m[36mRoom Load (0.2ms)[0m  [1mSELECT `rooms`.* FROM `rooms` WHERE (name = 'Real')[0m
+  [1m[35mMessage Load (0.2ms)[0m  SELECT `messages`.* FROM `messages` WHERE (room_id = 1) ORDER BY id DESC LIMIT 10
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (id = 2) LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE (id = 2) LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (id = 2) LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE (id = 2) LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (id = 2) LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE (id = 2) LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (id = 2) LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE (id = 2) LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `users`.* FROM `users` WHERE (id = 2) LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE (id = 2) LIMIT 1
+Completed 200 OK in 81ms (Views: 0.1ms | ActiveRecord: 5.9ms)
+
+
+Started POST "/chat/new_message" for 127.0.0.1 at 2012-07-29 20:18:14 -0400
+Processing by ChatController#new_message as HTML
+  Parameters: {"message"=>"testing room switch", "username"=>"orthogonal"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `messages` (`created_at`, `message`, `room_id`, `updated_at`, `user_id`) VALUES ('2012-07-30 00:18:14', 'testing room switch', NULL, '2012-07-30 00:18:14', NULL)
+  [1m[36m (28.0ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 32ms
+
+ActiveRecord::RecordNotFound (Couldn't find User without an ID):
+  app/controllers/chat_controller.rb:36:in `new_message'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (30.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (57.8ms)
+
+
+Started GET "/chat/" for 127.0.0.1 at 2012-07-29 20:18:59 -0400
+Processing by ChatController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE (ip = '127.0.0.1')
+  [1m[36mMessage Load (35.5ms)[0m  [1mSELECT `messages`.* FROM `messages` WHERE (room_id = NULL) ORDER BY id DESC LIMIT 10[0m
+  Rendered chat/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 47ms (Views: 8.8ms | ActiveRecord: 35.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-29 20:18:59 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.css?body=1" for 127.0.0.1 at 2012-07-29 20:18:59 -0400
+Served asset /chat.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-29 20:18:59 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-29 20:18:59 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/chat.js?body=1" for 127.0.0.1 at 2012-07-29 20:18:59 -0400
+Served asset /chat.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-29 20:18:59 -0400
+Served asset /application.js - 304 Not Modified (0ms)

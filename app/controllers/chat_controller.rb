@@ -1,7 +1,7 @@
 class ChatController < ApplicationController
   require 'pusher'
   
-  @usrid = -1
+  @usrid = 0
   @username = "Guest"
   @roomid = 0
   
@@ -25,6 +25,7 @@ class ChatController < ApplicationController
   end
   
   def new_message
+    puts "User ID: #{@usrid}"
     if (params[:message] && params[:message] != "")
       msg = Message.new
       msg.message = params[:message]
