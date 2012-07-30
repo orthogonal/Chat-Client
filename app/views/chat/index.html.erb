@@ -32,7 +32,6 @@ Message:  <input type="text" id="message" />
 		
 		$('#room').change(function(){
 			$('#room').attr("disabled", "disabled");
-			console.log($('#chatdiv'))
 			$('#chatdiv').html("");
 			$.ajax({
 				type: "POST",
@@ -46,7 +45,8 @@ Message:  <input type="text" id="message" />
 				},
 				success: function(data){
 					data = data.getElementsByTagName("arrays")[0]
-					room = $('#room').attr('data-id');
+					room = $('option:selected', '#room').attr('data-id');
+					
 					var username = "";
 					var message = "";
 					i = 0;
@@ -65,7 +65,6 @@ Message:  <input type="text" id="message" />
 									}
 									j += 1;
 								}
-								console.log("Check 3: " + username)
 								span = document.createElement("span");
 								span.innerHTML = "<b>" + username + ": </b>" + message + "<br />";
 								$("#chatdiv").append(span);
@@ -81,7 +80,6 @@ Message:  <input type="text" id="message" />
 		<% if (@msgs.length > 0) %>
 		<%   @msgs.each do |row| %>
 		<%=    "span = document.createElement('span')" %>
-		<%=     "console.log('#{row.user_id}')" %>
 		<%= raw    "span.innerHTML = '<b>#{User.find(row.user_id).username.gsub("'","\\\\'")}: </b>#{row.message.gsub("'","\\\\'")}<br />'"  %>
 		<%=    "document.getElementById('chatdiv').appendChild(span)" %>
 		<%   end %>
