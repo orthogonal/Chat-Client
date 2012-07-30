@@ -81,7 +81,7 @@ Message:  <input type="text" id="message" />
 		<%   @msgs.each do |row| %>
 		<%=    "span = document.createElement('span')" %>
 		<%=     "console.log('#{row.user_id}')" %>
-		<%= raw    "span.innerHTML = '<b>#{User.find(row.user_id).username}: </b>#{row.message}<br />'"  %>
+		<%= raw    "span.innerHTML = '<b>#{User.find(row.user_id).username.gsub("'","\\\\'")}: </b>#{row.message.gsub("'","\\\\'")}<br />'"  %>
 		<%=    "document.getElementById('chatdiv').appendChild(span)" %>
 		<%   end %>
 		<%  end  %>
