@@ -1,11 +1,19 @@
 Username: <input type="text" id="username" value=<%= "'#{@name}'" %>>&nbsp&nbsp
 Room: <select id="room">
-		<option value="Real" data-id = "1">Real</option>
-		<option value="Complex" data-id = "2">Complex</option>
+		<option value="Turing" data-id = "1">Turing</option>
+		<option value="Euler" data-id = "2">Euler</option>
+		<option value="Hilbert" data-id = "3">Hilbert</option>
+		<option value="Newton" data-id = "4">Newton</option>
+		<option value="Hardy" data-id = "5">Hardy</option>
+		<option value="Lasker" data-id = "6">Lasker</option>
+		<option value="Gauss" data-id = "7">Gauss</option>
+		<option value="Lagrange" data-id = "8">Lagrange</option>
+		<option value="Ramanujan" data-id = "9">Ramanujan</option>
+		<option value="Euclid" data-id = "10">Euclid</option>
 	  </select>
 
 <div id='chatdiv' style='height: 500px; width: 100%; overflow: auto;'></div>
-Message:  <input type="text" id="message" />
+<textarea id="message" rows="1" cols="40"></textarea>
 
 <script type="text/javascript">
 	$('document').ready(function(){

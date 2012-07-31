@@ -1,3 +1,13 @@
 // Place all the styles related to the Chat controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	background-image: url("../assets/noisebg.png");
+	color: rgb(200, 200, 200);
+}
+
+#message, #username, #room{
+	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255, 0.5);
+}
